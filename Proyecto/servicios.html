@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pokémon</title>
+
+<link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Buscar Pokémon</h1>
+
+<nav>
+<a href="index.html">Inicio</a>
+<a href="servicios.html">Pokémon</a>
+<a href="contacto.html">Contacto</a>
+</nav>
+
+</header>
+
+<main>
+
+<div class="buscador">
+
+<input
+type="text"
+id="pokemon"
+placeholder="Escribe un Pokémon">
+
+<button onclick="buscarPokemon()">
+Buscar
+</button>
+
+</div>
+
+<div id="resultado"></div>
+
+<h2>Pokémon disponibles</h2>
+
+<div id="contenedor-pokemon"></div>
+
+</main>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
